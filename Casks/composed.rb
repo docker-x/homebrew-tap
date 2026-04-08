@@ -6,12 +6,12 @@ cask "composed" do
     on_intel do
       url "https://github.com/docker-x/composed/releases/download/v#{version}/composed_#{version}_darwin_amd64.tar.gz",
         verified: "github.com/docker-x/composed"
-      sha256 "5f04bf923f3ce1f3d9dfb41de7a7e551eab3ff505b18bd974250efb4a0c34829"
+      sha256 "f1d9a67bf1e15dd7d6749e07cf92833075b7bff3f05dd59ef8b7042f939d4f3d"
     end
     on_arm do
       url "https://github.com/docker-x/composed/releases/download/v#{version}/composed_#{version}_darwin_arm64.tar.gz",
         verified: "github.com/docker-x/composed"
-      sha256 "a3996eec09480d3595e9639f53cfdeb7efde3afab1213717378d9c1a7a2dac66"
+      sha256 "c65fc030b986789eb7f29418aeab08a81e1c720e358763c58bf839f6984d87f5"
     end
   end
 
@@ -19,12 +19,12 @@ cask "composed" do
     on_intel do
       url "https://github.com/docker-x/composed/releases/download/v#{version}/composed_#{version}_linux_amd64.tar.gz",
         verified: "github.com/docker-x/composed"
-      sha256 "8c97605d09b28d4e4a7603748ebef600de49549a89dc70cb0112f7183b381f0d"
+      sha256 "3f577e0f34be72b54b58fdc908a4f9e8c04e2ea2ea8a44f39ea27e531018a684"
     end
     on_arm do
       url "https://github.com/docker-x/composed/releases/download/v#{version}/composed_#{version}_linux_arm64.tar.gz",
         verified: "github.com/docker-x/composed"
-      sha256 "b3be77aaf96f85643d70554e9e62ed2a006aa66fc93e0bf2d37f0806b431a212"
+      sha256 "4257a252231790d8fd2159fe0a268db57310ac6c276226a3ae0e585b5556f652"
     end
   end
 
